@@ -1,34 +1,33 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #F8F8F8
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    background-color: #f8f8f8;
 }
 main {
     width: 800px;
     display: inline-block;
     margin-left: calc((100% - 800px) / 2);
-    
 }
-header{
+header {
     display: inline-block;
     width: 100%;
     margin-top: 10px;
-    background-color: #F8F8F8;
-} 
+    background-color: #f8f8f8;
+}
 
-header>img {
+header > img {
     float: left;
-    height: 50px;       
+    height: 50px;
 }
 
-nav{
+nav {
     float: right;
-    margin-top: 7px;   
+    margin-top: 7px;
 }
-a+a {
+a + a {
     /*margin-left: 5px;*/
-
 }
-a{
+a {
     display: inline;
     text-decoration: none;
     float: left;
@@ -36,15 +35,15 @@ a{
     font-size: 18px;
     line-height: 20px;
     padding: 5px;
-    padding-left: 20px ;
+    padding-left: 20px;
     padding-right: 20px;
-    border: 2px transparent solid; 
-    border-radius: 18px;                      
-}  
+    border: 2px transparent solid;
+    border-radius: 18px;
+}
 
 a:last-child {
-    border-color:#9e9e9e; 
-    text-transform: uppercase; 
+    border-color: #9e9e9e;
+    text-transform: uppercase;
     margin-left: 10px;
 }
 
@@ -53,10 +52,10 @@ a:hover {
     text-decoration: underline;
 }
 
-h1{
+h1 {
     font-size: 80px;
     margin: 0;
-    color:#9e9e9e;
+    color: #9e9e9e;
 }
 
 div {
@@ -68,17 +67,17 @@ div {
     margin-top: 5%;
 }
 
-p{
+p {
     margin: 0;
     font-size: 30px;
-    color:#9e9e9e ;
+    color: #9e9e9e;
 }
 
 section {
     display: inline-block;
-    width: 100%;  
+    width: 100%;
 }
 
-section>img {
+section > img {
     width: 50%;
 }
