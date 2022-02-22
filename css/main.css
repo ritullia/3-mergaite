@@ -15,19 +15,29 @@ header {
     background-color: #f8f8f8;
 }
 
-header > img {
+.logo {
     float: left;
     height: 50px;
 }
 
-nav {
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.home {
     float: right;
     margin-top: 7px;
+    margin-left: 0;
 }
-a + a {
-    /*margin-left: 5px;*/
-}
-a {
+
+/* a + a {
+    margin-left: 5px;
+} */
+
+.link {
     display: inline;
     text-decoration: none;
     float: left;
@@ -39,6 +49,7 @@ a {
     padding-right: 20px;
     border: 2px transparent solid;
     border-radius: 18px;
+    margin-left: 5px;
 }
 
 a:last-child {
@@ -52,36 +63,25 @@ a:hover {
     text-decoration: underline;
 }
 
-h1 {
+.text {
     font-size: 80px;
     margin: 0;
     color: #9e9e9e;
+    margin-top: 70px;
+    padding: 15px 0;
 }
 
-div {
-    display: inline-block;
-    float: left;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-}
-
-p {
+.description {
     margin: 0;
     font-size: 30px;
     color: #9e9e9e;
+    padding: 5px 0;
 }
 
-section {
+.picture {
     display: inline-block;
-    width: 100%;
-}
-
-.img {
-    display: inline-block;
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 320px;
     margin-left: 10%;
     margin-top: 5%;
 }
